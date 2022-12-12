@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Poetfolio Website</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/f54b22812d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/tanzil Logo.png" height="100" width="120" class="logo">
+                <ul id="sidemenu">
+                      <li><a href="#header">Home</a></li>
+                      <li><a href="#about">About</a></li>
+                      <li><a href="#services">Services</a></li>
+                      <li><a href="#portfolio">Portfolio</a></li>
+                      <li> <a href="#contact">Contact</a></li>
+                      <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> Grafix Designer & <br> Web Devoloper</p>
+                <h1>Hii, I'm <span> Tanzil </span><br> Ahammed <br>From <p style="color: green;"> Bangladesh</p></h1>
+            </div>
+        </div>
+    </div>
+   <!-- ------------about--------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/tanzil edit.png"height="820" width="480" alt="">
+                </div>
+                <div class="about-col-2">
+                    <H1 class="sub-title">About Me</H1>
+                    <p style="font-size: 20px;">
+                        Lorem ipsum, or lipsum as it is sometimes known,
+                        is dummy text used in laying out print, graphic or web designs.
+                         The passage is attributed to an unknown
+
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="oskills()"> Skills </p>
+                        <!-- <button class="skill-button" onclick="oskills()">Skills</button> -->
+                        <p class="tab-links" onclick="oedu()"> Education </p>
+                        <p class="tab-links" onclick="oexp()"> Experience </p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Graphics</span><br>Designing logo/Photo </li>
+                            <li><span>Web</span><br>Designing App/Web Interface</li>
+                            <li><span>App Development</span><br>Building Android/iOS Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>2024</span><br>CSE from Parul University,India </li>
+                            <li><span>2019</span><br>HSC from G.K.H.H.U.C</li>
+                            <li><span>2017</span><br>SSC from Adarsha Academy,Faridgonj</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents active-tab" id="experience">
+                        <ul>
+                            <li><span>2022 - Current</span><br>Grafix Designer at Young Indians </li>
+                            <li><span>2019 - 2020</span><br>O.R.O at Dutch Bangla Bank Ltd.</li>
+                            <li><span>2022 - Current</span><br>Grafix Designer at Freelencer.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------Services--------->
+    <div id="services">
+        <div class="container">
+            <H1 class="sub-title">My Services</H1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                       Temporibus harum maxime quam aspernatur soluta mollitia. 
+                       Dolorem ratione eligendi velit, vitae ipsa veniam obcaecati 
+                       numquam facere aut debitis sunt reprehenderit ab.
+                    </p>
+                    <a href="#">Learn more </a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Grafix Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                       Temporibus harum maxime quam aspernatur soluta mollitia. 
+                       Dolorem ratione eligendi velit, vitae ipsa veniam obcaecati 
+                       numquam facere aut debitis sunt reprehenderit ab.
+                    </p>
+                    <a href="#">Learn more </a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                       Temporibus harum maxime quam aspernatur soluta mollitia. 
+                       Dolorem ratione eligendi velit, vitae ipsa veniam obcaecati 
+                       numquam facere aut debitis sunt reprehenderit ab.
+                    </p>
+                    <a href="#">Learn more </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!------------Portfolio--------->
+    <div class="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="worklist">
+                <div class="work">
+                  <img src="Images/GD.jpg" >
+                  <div class="layer">
+                    <h3>Photo & Logo Design</h3>
+                    <p>The App connects you to the talented pepole around the world.
+                        Download it from the play store.
+                    </p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                  </div>
+                </div>
+                <div class="work">
+                  <img src="Images/WBD.jpg" >
+                  <div class="layer">
+                    <h3>Website Design</h3>
+                    <p>The App connects you to the talented pepole around the world.
+                        Download it from the play store.
+                    </p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                  </div>
+                </div>
+                <div class="work">
+                  <img src="Images/ApD.png" >
+                  <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The App connects you to the talented pepole around the world.
+                        Download it from the play store.
+                    </p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                  </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+
+        </div>
+    </div>
+    <!------------Contact------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>tanzilahammedmunna75@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>01635557375</p>
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/tanzil.ahammedmunna/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="instagram.com/tanzil_ahammed75/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UCz2j80KqMn8iLgjFF5KWaIA"><i class="fa-brands fa-youtube"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/tanzil-ahammed-munna-6a390621a/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="My CV.pdf" download class="btn btn2">Download CV </a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet"> 
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright <i class="fa-regular fa-copyright"></i> Tanzil.@</p>
+        </div>
+    </div>
+ <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+            tabcontents.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById("tabname").classList.add(active-tab);
+    }
+    function oskills(){
+        document.getElementById("skills").style.display= "block";
+        document.getElementById("education").style.display= "none";
+        document.getElementById("experience").style.display= "none";
+    }
+    function oedu(){
+        document.getElementById("skills").style.display= "none";
+        document.getElementById("education").style.display= "block";
+        document.getElementById("experience").style.display= "none";
+    }
+
+    function oexp(){
+        document.getElementById("skills").style.display= "none";
+        document.getElementById("education").style.display= "none";
+        document.getElementById("experience").style.display= "block";
+    }
+ </script>
+ 
+ <script>
+     var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+   sidemenu.style.right = "0";
+}
+function closemenu(){
+   sidemenu.style.right = "-200px";
+}
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/a/macros/paruluniversity.ac.in/s/AKfycbwsbkeCUn9AuO_AOR8E8tqzzeKnoF6JETn7orTkzMx5_whiHv_Y8QaZrkujuGl6FJF4jA/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
